@@ -1,0 +1,13 @@
+{
+  "note": "Compliance thresholds referenced by name in policies/rules.rego. `value: null` means there's no single correct figure to default to -- see `citation` for why, and set it from your own policy before enforcing.",
+  "thresholds": {
+    "material_nonpublic_info_flag_required": {
+      "value": true,
+      "citation": "Baseline expectation under insider-trading/MNPI surveillance regimes -- confirm against the firm's information barrier policy."
+    },
+    "human_review_confirmed": {
+      "value": null,
+      "citation": "Structural requirement, not a regulatory figure -- every guardrail needs an explicit human-review signal before allowing a decision through."
+    }
+  }
+}

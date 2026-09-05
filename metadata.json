@@ -1,0 +1,20 @@
+{
+  "guardrail_package_metadata": {
+    "name": "guardrail-leoncuhk-awesome-quant-ai",
+    "use_case": "leoncuhk/awesome-quant-ai",
+    "sector": "CIB",
+    "modality": "rag_document",
+    "risk_tier": "unclassified",
+    "active_semver": "v0.1.0",
+    "framework": "open_policy_agent",
+    "indexed_global_regulatory_dependencies": [
+      {
+        "legal_reference_id": "Europe-curated-list:ModelOriented/MAIR-https-ec-europa-eu-info-sites-info-files-commission-white-paper-artificial-intelligence-feb2020-en-pdf",
+        "authority": "curated-list:ModelOriented/MAIR",
+        "jurisdiction": "Europe",
+        "source_url": "https://ec.europa.eu/info/sites/info/files/commission-white-paper-artificial-intelligence-feb2020_en.pdf",
+        "mandate": "[White papers/guidances] European Commission: On Artificial Intelligence - A European approach to excellence and trust"
+      }
+    ]
+  }
+}
